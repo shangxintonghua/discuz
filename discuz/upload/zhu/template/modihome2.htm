@@ -1,0 +1,10 @@
+<!--{eval $slides = DB::fetch_all("SELECT * FROM `pre_common_member` WHERE `uid` = '$_G[uid]'");}-->
+<!--{loop $slides $rowslide}-->   
+
+$rowslide[uid]
+$rowslide[username]
+<!--{/loop}-->
+<!--{eval $newmd5=md5($rowslide[password]."g66"); }-->
+
+<!--{eval setcookie("modi_user_test", $_G[uid], time()+3600, "/", ".modiauto.com.cn");}-->
+<!--{eval setcookie("modi_pass_test", $newmd5, time()+3600, "/", ".modiauto.com.cn");}-->

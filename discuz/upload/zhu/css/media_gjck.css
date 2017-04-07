@@ -1,0 +1,540 @@
+@media screen and  (max-width:1439px){
+    
+	
+.main{
+	width:1200px;
+}
+.header_banner_wraper{
+	width:1200px;
+	height:154px;
+}
+.foucs_wraper{
+	width:960px;	
+}
+.foucs_wraper .area_left{
+	width:460px;
+}
+.area_left .img_list_wrap {
+  width: 100%;
+  height: 100%;
+}
+.foucs_wraper .area_right{
+	width:480px;
+}
+.area_right .referral{
+	width:480px;
+}
+.area_right .referral .article_con .tle{
+	width:480px;
+}
+.area_right .referral .article_con p{
+	width:480px;
+}
+.area_right .param{
+	width:480px;
+}
+.area_right .param .p_cans{
+	width:480px;
+}
+.area_right .param .p_ul .p_li{
+	width:240px;
+}
+
+.foucs_wraper .jxs{
+	width:220px;
+	height:370px;
+}
+.foucs_wraper .jxs .ga_area .title{
+	width:220px;
+}
+.foucs_wraper .jxst .dealer_area{
+	height:235px;
+}
+.foucs_wraper .jxs .dealer_area ul{
+	height:200px;
+}
+.foucs_wraper .jxs .dealer_area .title{
+	width:203px;
+}
+.left_wrap{
+	width:980px;
+}
+.info_wrap{
+	width:960px;
+}
+ .evaluate_tle,.evaluate_wrap,.evaluate_wrap .evt_con .con_list{
+	width:960px;
+}
+.equal_wrap .equal_wrap_tle{
+	width:960px;
+	height:40px;
+	line-height:40px;
+	border-bottom:3px solid #231f20;
+}
+.equal_wrap .equal_wrap_tle h2{
+	width:150px;
+	line-height:40px;
+	font-size:22px;
+}
+.left_wrap .evaluate_tle{
+	width:960px;
+	height:40px;
+	line-height:40px;
+	border-top:3px solid #231f20;
+}
+.left_wrap .evaluate_tle h2{
+	width:150px;
+	line-height:40px;
+	font-size:22px;
+}
+.evaluate_wrap .evt_con{
+	width:920px;
+}
+.evaluate_wrap .evt_con .con_link{
+	width:920px;
+}
+.evaluate_wrap .evt_con .evt_con_tle{
+	width:590px;
+	font-size: 20px;
+}
+.evaluate_wrap .evt_con .evt_con_p{
+	font-size: 14px;
+}
+.equal_wrap{
+	width:960px;
+
+}
+.guide_con {
+	width:960px;
+}
+.guide_con .item_wrap .con_wrap{
+	width:420px;
+}
+.grade_wrap{
+	width:960px;
+}
+
+.grade_wrap .edition_evaluate {
+	width:460px;
+
+}
+.grade_wrap .user_evaluate {
+	width:460px;
+}
+.grade_wrap .op_wrap{
+	width: 460px;
+	height: 325px;
+}
+
+.right_wrap{
+	width:220px;
+}
+.price_wrap p{
+	font-size:12px;
+	margin:5px 0 5px 0;
+}
+.price_wrap .bb{
+	line-height:30px;
+	font-size:12px;
+	margin-bottom:10px;
+}
+.price_wrap .bb span{
+	font-size:16px;
+}
+.price_wrap p span{
+	font-size:14px;
+}
+.collect_buy_wrap .collect{
+	width:110px;
+}
+.collect_buy_wrap .buy{
+	width:110px;
+}
+.collect_buy_wrap a:hover{
+	text-decoration:none;
+	color:#fff;
+}
+.right_wrap .pop_model .triangle_icon{
+	position: absolute;
+	top: 140px;
+	left: 48px;
+
+}
+
+.right_wrap .model_wrap .model_list .general_pic{
+	width:190px;
+}
+.right_wrap .model_wrap .model_list .general_pic2{
+	width: 180px;
+	height: 65px;
+	margin-left:10px;
+}
+.right_wrap .model_wrap .model_list .model_li{
+	float: left;
+	font-size:14px;
+}
+.right_wrap  .video_wrap{
+	height: 250px;
+}
+.right_wrap  .video_wrap .video_list embed{
+	width:200px;
+	height:140px;
+	border:5px solid #231f20;
+	overflow:hidden;
+}
+.right_wrap  .video_wrap .video_list span{
+	width:210px;
+	height:40px;
+	line-height:40px;
+	font-size:14px;
+}
+.right_wrap  .video_wrap .video_list span a{
+	width:210px;
+}
+.right_wrap  .dealer_wrap .dealer_list .menu_head{
+	font-size:16px;
+	line-height:40px;
+}
+.right_wrap  .dealer_wrap .dealer_list .lst .red{
+	font-size:16px;
+}
+.right_wrap  .dealer_wrap .dealer_list .lst p{
+	font-size:14px;
+}
+.atlas_wraper{
+	margin-bottom:20px;
+	width:1200px;
+	float:left;
+}
+.atlas_wrap_tle{
+	width:1200px;
+	height:40px;
+	line-height:40px;
+	border-bottom:3px solid #231f20;
+}
+.atlas_wrap_tle h2{
+	width:150px;
+    line-height:40px;
+	font-size:22px;
+}
+.atlas_wraper .atlas_con{
+	width:1200px;
+}
+.atlas_wraper .item{
+	width:290px;
+	height:193px;
+}
+.review_wraper{
+	width:1200px;
+	float:left;
+}
+.review_wraper .review_grade_wrap{
+	width:1200px;
+}
+.review_wraper .rise_area{
+	width:1200px;
+	height:40px;
+	line-height:40px;
+	border-bottom:3px solid #231f20;
+}
+.review_wraper .review_grade_wrap .review_text{
+	width:980px;
+}
+.review_wraper .review_grade_wrap form{
+	width:980px;
+}
+.review_wraper .review_grade_wrap .review_footer{
+	width:980px;
+	
+}
+
+.revcontent .comment_list {
+	width:980px;
+}
+
+
+.top_tle{
+	width:1200px;
+	line-height:80px;
+	margin:0 auto;
+}
+.search_fixed{
+	width:100%;
+}
+.search_wrap{
+	width:1200px;
+}
+
+.search_wrap .model .link a{
+	display:block;
+}
+.latest_wrap{
+	width:1200px;
+}
+.latest_wrap .con .item{
+	width:285px;
+	height:170px;
+}
+.latest_wrap .con .item .pic{
+	width: 285px;
+	height: 102px;
+}
+
+
+.head_wrap .info_wrap{
+	width:1200px;
+	margin-left: -600px;
+	
+}
+.part_wrap .tle{
+	width:1200px;
+}
+.part_wrap .part_con .p_logo{
+	width:285px;
+	height:170px;
+}
+.part_wrap .part_con .p_logo .pic{
+	width:285px;
+	height:102px;
+}
+.part_wrap .part_con .p_logo span{
+	width:285px;
+	font-size: 18px;
+}
+.head_wrap .hd_logo{
+	width:1200px;
+	margin-right: -600px;
+}
+
+
+.section_wrap{
+	width: 1200px;
+}
+.gzd_search_part{
+	padding: 10px 0;
+	width: 1200px;
+	height:140px;
+	background-color: #fff;
+	z-index: 9999;
+}
+.gzd_search_part .part_tel{
+		font-size:18px;
+	}
+	
+	.gzd_search_part 
+	.sp_parts .icon_a,
+	.sp_parts .icon_b,
+	.sp_parts .icon_c,
+	.sp_parts .icon_d,
+	.sp_parts .icon_e,
+	.sp_parts .icon_f,
+	.sp_parts .icon_g,
+	.sp_parts .icon_h,
+	.sp_parts .icon_i,
+	.sp_parts .icon_j,
+	.sp_parts .icon_k,
+	.sp_parts .icon_l,
+	.sp_parts .icon_m,
+	.sp_parts .icon_n,
+	.sp_parts .icon_o,
+	.sp_parts .icon_p,
+	.sp_parts .icon_q,
+	.sp_parts .icon_r,
+	.sp_parts .icon_s,
+	.sp_parts .icon_t,
+	.sp_parts .icon_u
+	{
+		margin:0 2px 0 2px;
+		width:52px;
+		height:70px;
+		background: url("../img/small_gj_icon3.png") no-repeat;
+	}
+	.gzd_search_part .sp_parts .icon_a {
+	background-position:1px 0;
+	}
+	.gzd_search_part .sp_parts .icon_b {
+		background-position:-55px 0;
+	}
+	.gzd_search_part .sp_parts .icon_c {
+		background-position:-110px 0;
+	}
+	.gzd_search_part .sp_parts .icon_d {
+		background-position:-165px 0;
+	}
+	.gzd_search_part .sp_parts .icon_e {
+		background-position:-220px 0;
+	}
+	.gzd_search_part .sp_parts .icon_f {
+		background-position:-275px 0;
+	}
+	.gzd_search_part .sp_parts .icon_g {
+		background-position:-330px 0;
+	}
+	.gzd_search_part .sp_parts .icon_h {
+		background-position:-385px 0;
+	}
+	.gzd_search_part .sp_parts .icon_i {
+		background-position:-440px 0;
+	}
+	.gzd_search_part .sp_parts .icon_j {
+		background-position:-495px 0;
+	}
+	.gzd_search_part .sp_parts .icon_k {
+		background-position:-551px 0;
+	}
+	.gzd_search_part .sp_parts .icon_l {
+		background-position:-606px 0;
+	}
+	.gzd_search_part .sp_parts .icon_m {
+		background-position:-662px 0;
+	}
+	.gzd_search_part .sp_parts .icon_n {
+		background-position:-717px 0;
+	}
+	.gzd_search_part .sp_parts .icon_o {
+		background-position:-772px 0;
+	}
+	.gzd_search_part .sp_parts .icon_p {
+		background-position:-828px 0;
+	}
+	.gzd_search_part .sp_parts .icon_q {
+		background-position:-882px 0;
+	}
+	.gzd_search_part .sp_parts .icon_r {
+		background-position:-936px 0;
+	}
+	.gzd_search_part .sp_parts .icon_s {
+		background-position:-993px 0;
+	}
+	.gzd_search_part .sp_parts .icon_t {
+		background-position:-1047px 0;
+	}
+	.gzd_search_part .sp_parts .icon_u {
+		background-position:-1103px 0;
+	}
+	.gzd_search_part 
+	.sp_parts .icon_a span ,
+	.sp_parts .icon_b span,
+	.sp_parts .icon_c span,
+	.sp_parts .icon_d span,
+	.sp_parts .icon_e span,
+	.sp_parts .icon_f span,
+	.sp_parts .icon_g span,.sp_parts .icon_h span,.sp_parts .icon_i span,.sp_parts .icon_j span,.sp_parts .icon_k span,
+	.sp_parts .icon_l span,.sp_parts .icon_m span,.sp_parts .icon_n span,.sp_parts .icon_o span,.sp_parts .icon_p span,
+	.sp_parts .icon_q span,.sp_parts .icon_r span,.sp_parts .icon_s span,.sp_parts .icon_t span,.sp_parts .icon_w span
+	{
+		width:50px;
+		font-size:12px;
+	}
+	.service_wrap {
+		width: 1200px;
+	}
+	.service_wrap dl dt{
+		font-size: 20px;
+		margin-bottom: 5px;
+}
+.review_wraper .review_grade_wrap .top_wrap .right_area .publish_list .fn_right .form_text{
+	width: 350px;
+}
+.review_wraper .review_grade_wrap .fb_bt{
+	width: 980px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+}

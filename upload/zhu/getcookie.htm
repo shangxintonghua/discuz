@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Generator" content="EditPlus®">
+    <meta name="Author" content="">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>cookie</title>
+    <p id="exi"></p>
+    <script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            var skey = getCookie('modi_user');
+            if(skey==""){
+                $("#exi").html('<a href="#0" id="form-btn" data-show-layer="hw-layer-login" role="button"><i class="hd_pic"><img src="http://static.modiauto.com.cn/png/201702/7ec86ccb-cc7d-44d0-a2e0-9148f2c335d3.png" alt=""></i><span class="nickname">登录</span></a>');
+            }else{
+				$('#exi').html('<iframe src=http://wd.com/zhu/bbs.php frameborder=0 width=250 height=70></iframe>');
+                
+            }
+        });
+        function getCookie(cookieName){
+            var cookieValue="";
+            if (document.cookie && document.cookie != '') {
+                var cookies = document.cookie.split(';');
+                for (var i = 0; i < cookies.length; i++) {
+                    var cookie = cookies[i];
+                    if (cookie.substring(0, cookieName.length + 2).trim() == cookieName.trim() + "=") {
+                        cookieValue = cookie.substring(cookieName.length + 2, cookie.length);
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html> 

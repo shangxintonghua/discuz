@@ -1,0 +1,248 @@
+.hw-overlay{
+	display:none; 
+	position: fixed; 
+	top:0;
+	left:0;
+	width:100%;
+	height:100%; 
+	background-color: rgba(0,0,0,0.75);
+	z-index:10;
+}
+
+.hw-layer-wrap{
+	box-sizing: border-box;
+	position: absolute;
+	left: 50%;
+	top: 45%;
+	margin-left: -285px;
+	border-radius: 8px;
+	background-color:#000;
+	box-shadow: 1px 2px 4px 0 rgba(0,0,0,0.12);
+}
+
+.hwLayer-close{position:absolute; right:15px; top:15px; /*width:20px; height:20px; cursor:pointer; font-size:20px; color:#ccc;*/}
+.hw-layer-wrap .hw-icon{color:#b4d8f3;font-size:86px;text-align:center;}
+.hw-layer-wrap h4{margin:5px 0 30px; font-size:24px; color:#383c3e;}
+.hw-layer-title{height: 42px;line-height: 42px; font-size: 16px; position: absolute; left: 20px; top: 10px; font-weight: bold;}
+#hw-layer-login .hw-layer-wrap .modilogo {
+	display: block;
+	margin-bottom: 30px;
+	background-repeat: no-repeat;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+#hw-layer-login .hw-layer-wrap .close.hwLayer-close {
+  padding: 5px;
+	color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+	background-color: #F30007;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	cursor: pointer;
+	
+}
+#hw-layer-login .hw-layer-wrap .login-right .login-op {
+	
+	background-position: 0 20px;
+	height: 40px;
+	line-height: 40px;
+	width: 33%;
+	display: block;
+	float: left;
+	color: #ccc;
+}
+#hw-layer-login .hw-layer-wrap .login-right .login-op i{
+	width: 37px;
+	height: 37px;
+	display: block;
+	background: url(http://wd.com/op_login_icons.png) no-repeat;
+	float: left;
+	margin-right: 5px;
+}
+#hw-layer-login .hw-layer-wrap .login-right .wb i{
+    background-position: 0 -100px;
+}
+#hw-layer-login .hw-layer-wrap .login-right .wx i{
+	background-position: 0 -150px;
+}
+#hw-layer-login .hw-layer-wrap .login-right .qq i{
+	background-position: 0 -199px;
+}
+
+#hw-layer-login .hw-layer-wrap .row #login-form {
+	padding: 0px;
+	margin: 0px;
+	
+}
+#hw-layer-login .hw-layer-wrap .oaa{
+	color: #fff;
+	margin-left:50px;
+}
+#hw-layer-login .hw-layer-wrap .row #login-form .form-group .input-group #user {
+	height: 40px;
+	background-color: #fff;
+	width: 100%;
+	border: 1px solid #CCC;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	text-indent: 20px;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+#hw-layer-login .hw-layer-wrap .row #login-form .form-group .input-group #password {
+	height: 40px;
+	background-color: #FFF;
+	width: 100%;
+	border: 1px solid #CCC;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	text-indent: 20px;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+.container #hw-layer-login .hw-layer-wrap .login-left .row #login-form .form-group .col-md-11.col-md-offset-1 .oaa {
+	display: block;
+	padding: 5px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	width: 45%;
+	float: left;
+	color: #FFF;
+	text-decoration: none;
+}
+#hw-layer-login .hw-layer-wrap .row #login-form .form-group .col-md-11.col-md-offset-1 .btn.btn-success.hwLayer-ok {
+	height: 40px;
+	color: #000;
+	background-color: #f60007;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	width: 50%;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+#hw-layer-login .hw-layer-wrap .hw-layer-title {
+	float: none;
+}
+#hw-layer-login .hw-layer-wrap .login-left .row #login-form .form-group .col-md-11.col-md-offset-1 .sysmsg {
+	padding: 10px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 25px;
+	margin-left: 0px;
+	color: #f60007;
+	width: 85%;
+	display: block;
+	box-sizing: border-box;
+}
+
+#hw-layer-login .hw-layer-wrap {
+	background-color: #F30007;
+}
+.optlist #form-btn {
+	background-image: url(http://common.modiauto.com.cn/img/new_icons.png);
+	background-repeat: no-repeat;
+	height: 22px;
+	display: block;
+	background-position: -85px -90px;
+	display: inline-block;
+	overflow: hidden;
+	padding-top: 15px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 40px;
+	color: #FFF;
+	text-decoration: none;
+}
+#hw-layer-login .hw-layer-wrap .modilogo {
+	background-image: url(http://wd.com/passport.png);
+	height: 100px;
+}
+.optlist #form-btn a {
+	font-size: 14px;
+	color: #FFF;
+	text-decoration: none;
+}
+#hw-layer-login .bottom_wrap{
+	float: left;
+	width: 100%;
+	padding:50px;
+	box-sizing: border-box;
+	background-color: #666;
+	border-radius: 0 0 8px 8px;
+}
+#hw-layer-login .login-left {
+	float: left;
+	width: 100%;
+}
+
+#hw-layer-login .hw-layer-wrap .login-right h1 {
+	font-size: 18px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	line-height: 40px;
+}
+#hw-layer-login .hw-layer-wrap .login-right .at_ul a .list {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	list-style-type: none;
+}
+#hw-layer-login .hw-layer-wrap .login-right .at_ul {
+	margin: 0px;
+	padding: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#hw-layer-login .hw-layer-wrap .login-right .at_ul li {
+	margin: 0px;
+	padding: 0px;
+}
+#hw-layer-login .login-right {
+	float: left;
+	width: 100%;
+	margin-left: 10px;
+	border-top:1px dashed #8c8c8c;
+	margin-top:20px;
+	padding-top: 20px;
+}
+.optlist .h_login{
+	float:left;
+	line-height:70px;
+	font-size:20px;
+	color:#000;
+}
+.optlist .h_login a{
+	color:
+ }
+
+@media (max-width:768px){
+	.hw-layer-wrap{width:350px;  }
+}
+@media (max-width:400px){
+	.hw-layer-wrap{width:250px; }
+}

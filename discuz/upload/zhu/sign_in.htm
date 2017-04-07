@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>注册</title>
+   <link rel="stylesheet" href="./css/ucer.css">
+   <link rel="stylesheet" type="text/css" href="./css/common.css"/>
+</head>
+<body>
+<div class="header_wrapper">
+<div class="fixed_wrap">
+    <a href="" class="logo_img">
+        <img src="http://static.modiauto.com.cn/png/201612/9c786e22-b53d-4813-9011-8fd9190e4d3c.png" alt="">
+    </a>
+    <div class=""></div>
+</div>
+</div>
+<div class="main_wrapper">
+    <div class="main">
+        <div class="ad_left">
+		    <a href="">
+		        <img src="http://static.modiauto.com.cn/png/201612/052994e9-912d-49bd-91e6-4ff0fe0af03e.png" alt="">
+		    </a>
+	    </div>
+	    <div class="form_wrap form2">
+	        <h3>用家注册</h3>
+	        <form>
+		        <dl class="dl_area">
+		            <dd class="accont">
+		                <span>用户名：</span>
+		                <input type="text" class="input" id="username" placeholder="用户名">
+		                <div class="spa spa1"></div>
+                        <div class="clear_f"></div>
+		            </dd>
+		            <dd class="password">
+		                <span>密码：</span>
+		                <input type="password" class="input" id="password" placeholder="密码">
+		                <div class="spa spa2"></div>
+		                <div class="clear_f"></div>
+		            </dd>
+		            <dd class="password">
+		                <span>手机号码：</span>
+		                <input type="text" class="input" id="userphone" placeholder="手机号码">
+		                <div class="spa spa3"></div>
+		                <div class="clear_f"></div>
+		            </dd>
+		           <dd class="sex">
+                        <span>性别：</span>
+                        
+                        <input type="radio" checked="checked" name="Sex" value="male"><em>男</em>
+                        <input type="radio" name="Sex" value="female"><em>女</em>
+                        
+		           </dd>
+		            <dd class="signin_btn">
+		               <input  type="submit" id="sub" class="button" name="button" value="注册">
+		            </dd>
+		        </dl>
+	        </form>
+	        <div class="other_login">
+	            <p>其他账号登录</p>
+	            <ul class="at_ul">
+	                <a href="">
+		                <li class="list qq">
+		                    <i></i>
+		                    QQ登录
+		                </li>
+	                </a>
+	                <a href="">
+		                <li class="list blog">
+		                    <i></i>
+		                    微博登录
+		                </li>
+	                </a>
+	                <a href="">
+		                <li class="list wechat">
+		                     <i></i>
+		                     微信登录
+		                </li>
+	                </a>
+	             </ul>
+	        </div>
+	    </div>
+    </div>
+</div>
+<div class="footer_container">
+    <div class="for_fix_wrap">
+        <div class="footer_container">
+            <div class="footer_wrap">
+                <a class="a_link" href="http://about.modiauto.com.cn/other/about/" target="_blank">关于我们</a>
+                <a class="a_link" href="http://about.modiauto.com.cn/other/sitemap/" target="_blank">网站地图</a>
+                <a class="a_link" href="http://about.modiauto.com.cn/other/contact/" target="_blank">联系我们</a>
+                <a class="a_link" href="http://about.modiauto.com.cn/other/hr/" target="_blank">加入我们</a>
+                <a class="a_link" href="http://about.modiauto.com.cn/other/friendlink/" target="_blank">友情链接</a>
+                <a class="a_link" href="http://about.modiauto.com.cn/other/law/" target="_blank">法律顾问</a>
+                <a class="gotop">返回顶部<i class="gotop_icon"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="aboutus_container">
+        <div class="aboutus_wrap">
+					<span>版权所有：无敌汽车网www.modiauto.com.cn<a href="mailto:webmaster@modiauto.com.cn" target="_blank">（如有任何问题，请点击此处）</a> <a href="http://about.modiauto.com.cn/images/110263.jpg" target="_blank">京ICP证110263号</a> |
+                    <a href="http://www.miitbeian.gov.cn" target="_blank">京ICP备11011280号</a> |
+                    京公网安备11010602010154号    Copyright © 2005-2016</span>  </br>
+            <div class="i">业务联系：400-930-8880</div>
+
+
+        </div>
+
+    </div>
+</div>
+<script type="text/javascript" charset="utf-8" src="http://common.modiauto.com.cn/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+			window.onload=function(){
+				$("#username").focus()
+			}
+		/************************  失焦判断  **********************************/
+			$("input").blur(function(){
+				$(".spa").css("color","#f60007")
+
+				if($(this).is("#username")){             //姓名判断
+					var na=/^[a-zA-Z0-9_]{3,12}$/
+					if($("#username").val()!=""){
+						if(!(na.test($("#username").val()))){
+							$(".spa1").text("请填写正确的用户名");
+							$(this).css("border","1px solid #f60007")
+							return false;
+						}else if(na){
+							$(".spa1").text("");
+							return true;
+						}
+					}else{
+						$(".spa1").text("");
+					}
+				}
+				if($(this).is("#password")){             //密码判断
+					var na=/[0-9a-zA-Z]{6,16}$/
+					if($("#password").val()!=""){
+						if(!(na.test($("#password").val()))){
+							$(".spa2").text("请填正确的密码");
+							$(this).css("border","1px solid #f60007")
+							return false;
+						}else if(na){
+							$(".spa2").text("");
+							return true;
+						}
+					}else{
+						$(".spa2").text("");
+					}
+				}
+				if($(this).is("#userphone")){             //手机号判断
+					var na=/^1[3|5|7|8|][0-9]{9}$/
+					if($("#userphone").val()!=""){
+						if(!(na.test($("#userphone").val()))){
+							$(".spa3").text("请填写正确的手机号码");
+							$(this).css("border","1px solid #f60007")
+							return false;
+						}else if(na){
+							$(".spa3").text("");
+							return true;
+						}
+					}else{
+						$(".spa3").text("");
+					}
+				}
+			})
+		/********************** 聚焦提示 ************************/	
+			$("input").focus(function(){
+				if($(this).is("#username")){
+					$(".spa1").text("用户名长度3~12个字符").css("color","#aaa")
+					$(this).css("border","1px solid #aaa")
+				}
+				if($(this).is("#password")){
+					$(".spa2").text("密码必须由6~16个字母和数字组成").css("color","#aaa")
+					$(this).css("border","1px solid #aaa")
+				}
+				if($(this).is("#userphone")){
+					$(".spa3").text("请填写手机号码").css("color","#aaa")
+					$(this).css("border","1px solid #aaa")
+				}
+			})
+		/*********************** 提交验证 ***************************/
+			$("#sub").click(function(){
+				var na=/^[a-zA-Z0-9_]{3,12}$/;   //用户名正则
+				var pw=/[0-9a-zA-Z]{6,16}$/;    //密码正则
+				var ph=/[0-9a-zA-Z]{5}$/;     //验证码正则
+				if(na.test($("#username").val())&&pw.test($("#password").val())&&ad.test($("#userphone").val())){
+					return true;
+				}else{
+					if($("#username").val()==""){
+						$(".spa1").text('请填写您的用户名')
+					} 
+					if($("#password").val()==""){
+						$(".spa2").text('请填写您的密码')
+					} 
+					if($("#userphone").val()==""){
+						$(".spa3").text('请填写您的手机号码')
+					}
+					return false;
+				}
+			})
+		</script>
+</body>
